@@ -19,12 +19,12 @@ except ImportError:
 
 
 spark = (SparkSession.builder
-                     .master('local[4]')
+                     .master('local[*]')
                      .appName("base-test")
                      .getOrCreate())
 
 
-path = '/Users/Fuat_Yilmaz/Desktop/wsl-projects/docker-databricks-cli/data'
+path = 'data/people.json'
 df = spark.read.json(path)
 
 
