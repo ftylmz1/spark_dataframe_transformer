@@ -13,7 +13,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines() if i.spl
 
 
 setup(
-    name='oneid_metadata',
+    name='spark_transformer',
     version='0.0.1',
     include_package_data=True,
     package_data={
