@@ -3,3 +3,4 @@
 
 dist
 venv
+src/spark_transformer.egg-info
