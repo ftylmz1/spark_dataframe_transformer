@@ -1,0 +1,4 @@
+[
+    {"py/object": "tranformations.hash.Hash", "column": "name"},
+    {"py/object": "tranformations.drop.Drop", "column": "surname"}
+]
