@@ -1,6 +1,5 @@
 .pytest_cache
 .vscode
 
-dist
 venv
 src/spark_transformer.egg-info
